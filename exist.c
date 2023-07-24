@@ -14,5 +14,5 @@ if (exist_stat == -1)
 return (-1);
 }
 close(exist_stat);
-eturn (0);
+return (0);
 }
