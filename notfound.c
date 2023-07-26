@@ -7,7 +7,7 @@
  */
 int print_not_found(char **arguments, int counter)
 {
-char *shell_name = "hsh";if (isatty(STDIN_FILENO))
+char *shell_name = "hsh"; if (isatty(STDIN_FILENO))
 {
 write(STDERR_FILENO, shell_name, _strlen(shell_name));
 }
