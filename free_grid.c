@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- *free_grid - Free the allocated memory used
+ *free_grid - Free the allocated memory used in
  *@grid: grid pointer
  *@heigth: grid heigth
  */
